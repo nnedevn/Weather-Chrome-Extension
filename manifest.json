@@ -9,6 +9,10 @@
     "newtab": "newTab.html"
   },
 
+  "permissions": [
+    "geolocation"
+  ],
+
   "web_accessible_resources": ["newTab.html"]
 
 
