@@ -3,17 +3,10 @@
 
   "name": "My awesome weather extension",
   "description": "Shows the local weather data when a new tab is opened.",
+  "version": "0.1.0",
 
-  "permissions": [
-    "sessions"
-  ],
-  
   "chrome_url_overrides": {
     "newtab": "newTab.html"
-  },
-
-  "background":{
-    "scripts": "background.js"
   },
 
   "web_accessible_resources": ["newTab.html"]
