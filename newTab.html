@@ -5,14 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
   <script src="scripts/jquery-3.3.1.min.js"></script>
   <script src="newTab.js"></script>
 </head>
 <body>
-  <div>
-    Long and Lat: 
-    <div id="startLat"></div>
-    <div id="startLon"></div>
+  <div class="container">
+      <img class="temp-info" src="https://maps.googleapis.com/maps/api/staticmap?center=47.63,-122.32&markers=color:red%7Clabel:C%7C40.718217,-73.998284&zoom=12&size=640x480"/>
+    <div class="temp-info">
+      <h3 id="city">Loading...</h3>
+    <h4 id="temp">Loading...</h4>
+    </div>
+
   </div>
 </body>
 
